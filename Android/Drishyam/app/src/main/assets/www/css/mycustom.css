@@ -1,0 +1,46 @@
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+}
+     @media screen and (min-width: 180px){
+.yokform{
+
+width: 82%;
+}
+.amon{
+    margin: 0 auto;
+}
+#am{
+     margin: 12px 72px;
+}
+
+}
+     @media screen and (min-width: 480px){
+.yokform{
+
+width: 70%;
+}
+.amon{
+    margin: 0 auto;
+}
+#am{
+   margin: 12px 72px;
+}
+}
+
+
+@media screen and (min-width: 660px){
+.yokform{
+width: 80%;
+}
+.amon{
+    margin: 0 auto;
+}
+#am{
+     margin: 12px 72px;
+}
+#loginbox{
+    margin: 0 72px;
+}
+}

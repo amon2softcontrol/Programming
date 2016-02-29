@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/login">
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout3" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:background="@drawable/egco"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.53"
+        android:id="@+id/linearLayout3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:id="@+id/linearLayout4"
+        android:orientation="horizontal"
+        android:background="#EEEEEE"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Keep Driving"
+            android:textColor="@color/Blue_700"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/mainPageText"
+            android:layout_weight="0.94" />
+
+        <ImageButton
+            android:layout_width="38dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="24dp"
+            android:id="@+id/addRoute"
+            android:background="#EEEEEE"
+            android:src="@drawable/ic_switch"
+            android:layout_marginTop="6dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

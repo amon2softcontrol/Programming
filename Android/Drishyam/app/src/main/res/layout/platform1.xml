@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/platform1"
+    android:background="@drawable/destructive"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <com.alexzh.circleimageview.CircleImageView
+        android:id="@+id/destructive1"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:src="@drawable/destructive1"
+        app:view_backgroundColor="@color/transparent"
+        app:view_shadowRadius="4dp"
+        app:view_shadowDx="2dp"
+        app:view_shadowDy="0dp"
+        app:view_shadowColor="@color/user_icon_default_gray"
+        app:view_borderWidth="4dp"
+        app:view_selectedColor="@color/Blue_700"
+        app:view_borderColor="@android:color/darker_gray"
+        android:layout_gravity="left|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

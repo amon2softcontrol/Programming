@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/platform4"
+    android:background="@drawable/mobileprogramming"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <com.alexzh.circleimageview.CircleImageView
+        android:id="@+id/mobilepro"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:src="@drawable/mobileprogramming1"
+        app:view_backgroundColor="@color/transparent"
+        app:view_shadowRadius="4dp"
+        app:view_shadowDx="2dp"
+        app:view_shadowDy="0dp"
+        app:view_shadowColor="@color/user_icon_default_gray"
+        app:view_borderWidth="4dp"
+        app:view_selectedColor="@color/Blue_700"
+        app:view_borderColor="@android:color/darker_gray"
+        android:layout_marginBottom="82dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

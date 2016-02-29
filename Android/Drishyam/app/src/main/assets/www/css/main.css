@@ -1,0 +1,221 @@
+/*These are selectors and theor properties for particual field*/
+
+/***************************************************
+GENERAL
+***************************************************/
+body{
+	font-family: 'Open Sans' , sans-serif;
+}
+
+#wrapper{
+	max-width: 940px; /* this property states no larger than 940 px*/
+	margin: 0 auto;   /* "spacing" automatically fills the page-940px */
+	padding: 0 5%;    /* "Text" first value is for up-down and the second one's for left-right */
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%; /*fills the parent container*/
+}
+
+h3{
+	margin: 0 0 1.25em 0;
+
+}
+/***************************************************
+HEADING
+***************************************************/
+header{
+	float: left;/*no practical use now, for future desktop version*/
+	margin: 0 0 30px 0; /*remove the space at the top or other places but keeping some distances from the content at the bottom*/
+	padding: 5px 0 0 0; /*clockwise- top,right,bottom,left*/
+	/*seperate the tags at the top without having a margin at the top */
+	width: 100%; /*Since it is a floating element 
+	               An explicit declaration of width is required to fills the page*/
+}
+#logo,#logo1{ 
+	text-align: center;
+	margin: 0; /* all 4 sides*/
+}
+
+h1{
+	font-family: 'Changa One', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;/*em is a unit, relative unit M*/
+	/*relative to defualt which is 16 px, here 16x1.75*/
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2{
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+
+}
+
+/***************************************************
+NAVIGATION
+***************************************************/
+nav{
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav a{
+	font-weight: 800;
+	padding: 15px 10px;
+
+}
+/***************************************************
+FOOTER
+***************************************************/
+footer{
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px; /*only want paddign at the top*/
+	color: #cccccc;
+
+}
+
+.social-icon{
+width: 33px;
+height: 33px;
+margin: 0 5px;
+}
+/***************************************************
+PAGE PORTFOLIO
+***************************************************/
+#Gallery{
+margin: 0;
+padding: 0;
+list-style: none; /*remove the bulletin point*/
+}
+
+/*Pop side by side*/
+#Gallery li{
+	
+	float: left; /*Big Idea, position element in the special way, floated side by side*/
+	width: 45%;  /*45% of the container size(Page). NOTE: 2 45% can fit in a 100% conatiner with 10% extra space*/
+	margin: 2.5%; /*with extra 10% we will have 2.5% between pics and the page borders*/
+	background-color: #f5f5f5; /*medium grey color around the each image list*/
+	color: #bdc3c7; /*not shown cuz linked screen color is displayed*/
+}
+
+#Gallery li a p{
+	margin: 0; /*paragraph has some margin by defualy so we want to 0 that out*/
+	padding: 5%;
+	font-size: 0.75em; /*decrecse the font size since they are lil larg*/
+	color: #bdc3c7 ;
+}
+
+/***************************************************
+PAGE : ABOUT	
+***************************************************/
+.profile-photo {
+	display: block;
+	max-width: 150px;
+	margin: 0 auto ;
+}
+.profile-photo img{
+	border-radius: 100%;
+}
+
+
+/***************************************************
+PAGE : CONTACT
+***************************************************/
+.contact-info{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+	
+}
+
+.contact-info li.phone a{
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+.contact-info li.mail a{
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+.contact-info li.LINE a{
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+.contact-info li.fb a{
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+/***************************************************
+COLORS
+***************************************************/
+body{
+	background-color: #ffffff;
+	color: #999999;
+}
+
+header {
+	background: #6ab47b;
+	border-color: #599a68;
+}
+
+nav{
+	background: #599a68;
+}
+
+h1,h2 {
+	color: #ffffff;
+}
+
+a{
+	color: #6ab47b;
+}
+
+/*pseudo class*/
+nav a, nav a:visited {
+	color: #ffffff;
+}
+
+
+nav a.selected, nav a:hover{
+color: #32673f;
+}
+
+#gg p{
+	color: #000;
+}

@@ -1,0 +1,59 @@
+.toggler { width: 500px; height: 200px; }
+  #button { padding: .5em 1em; text-decoration: none; }
+  #effect { width: 240px; height: 135px; padding: 0.4em; position: relative; }
+  #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+  
+  .ui-menu .ui-menu-item {
+    color: #e38d13;
+    border-radius: 12px 12px;
+    border-width:5px;	
+    box-shadow: 10px 10px 5px #888888;
+    border-style:ridge;
+    border color: #454545;
+    width: 300px;
+
+}
+
+#amon{
+	margin: 0 auto;
+	/*resize: both*/;
+/*	overflow: auto;*/
+	margin: 0 auto;
+	margin-bottom: 0;
+	padding: 5px 0 0 0;
+/*	width: 55%;
+	max-width: 96%;*/
+}
+.container
+{
+	max-width: 900px;
+}
+.form-control{
+	padding:6px 40px;
+}
+.yokform{
+width: 200px;
+margin: 20px;
+}
+.navbar-form .form-control {
+	width: 350px;
+}
+.navbar-default{
+	resize: horizontal;
+	overflow: auto;
+	margin: 0 auto;
+	margin-bottom: 18px;
+	padding: 5px 0 0 0;
+	width: 55%;
+	max-width: 96%;
+}
+#amon{
+	margin-top: 12px;
+}
+}
+ .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: 1px solid #aaaaaa;
+    background: #ffffff url("images/ui-bg_glass_65_ffffff_1x400.png") 50% 50% repeat-x;
+    font-weight: normal;
+    color: #212121;
+}

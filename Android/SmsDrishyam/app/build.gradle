@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.geetaanjali.drishyam"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+dependencies {
+
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.loopj.android:android-async-http:1.4.8'
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'org.apache.httpcomponents:httpcore:4.3.2'
+    compile 'com.oguzdev:CircularFloatingActionMenu:1.0.2'
+    compile 'com.balysv:material-ripple:1.0.2'
+    compile('com.rubengees:introduction:1.0.5@aar') {
+        transitive = true;
+    }
+    compile 'com.google.android.gms:play-services:8.3.0'
+    compile 'com.shamanland:facebook-like-button:0.1.8'
+    compile 'com.parse.bolts:bolts-android:1.+'
+    compile fileTree(dir: 'libs/Parse-1.10.2', include: 'Parse-*.jar')
+    compile files('libs/Parse-1.10.2/Parse-1.10.2.jar')
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.android.support:design:23.0.1'
+    //complile 'com.google.android.gms:play-services-maps:8.3.0'
+
+}

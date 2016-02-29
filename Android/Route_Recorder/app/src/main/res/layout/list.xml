@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip"
+    android:id="@+id/abc2"
+    android:orientation="horizontal"
+    android:background="#FFFFFF"
+    android:weightSum="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:id="@+id/linearLayout5"
+        android:orientation="horizontal"
+        android:background="#EEEEEE"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:text="sas_route"
+            android:textColor="@color/Blue_700"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/routeList"
+            android:layout_gravity="left|center_vertical" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/arrowright" />
+
+    </LinearLayout>
+</RelativeLayout>

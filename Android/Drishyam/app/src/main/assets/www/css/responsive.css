@@ -1,0 +1,75 @@
+/*wiireframes*/
+/*we want to target digital screen*/
+/*browser screen*/
+@media screen and (min-width: 480px){
+/***************************************************
+Two Page Layout
+Page Contact
+***************************************************/
+#primary{
+	width: 50%;
+	float: left;
+}
+
+#secondary{
+	width: 40%;
+	float: right;
+}
+/*************************************************** 
+Page Portfolio
+***************************************************/
+#Gallery li{
+	/*involved basic math*/
+	width: 28.33333%; 
+}
+
+#Gallery li:nth-child(4n){
+clear: left;
+}
+
+/*************************************************** 
+Page About
+***************************************************/
+.profile-photo{
+	float: left;
+	margin: 0 5% 80px 0;
+}
+}
+/*UP is the Media Query, tells the browser that we want to target digital screen(print media).Both need to be true(AND)*/
+/*if a page is print-style and the with is more than 480px(mobile-landscape mode)*/
+
+@media screen and (min-width: 660px){
+/*************************************************** 
+Header
+***************************************************/
+nav{
+	background: none;
+	float: right;
+	font-size: 1.125em;
+	margin-right: 5%;
+	text-align: right;
+	width: 45%;
+}
+
+#logo,#logo1{
+	display: inline-block;;
+	margin-left: 5%;
+	text-align: left;
+	width: 45%;
+}
+
+h1{
+	font-size: 2.5em;
+}
+
+h2{
+	font-size: 1em;
+	margin-bottom: 20px;
+}
+
+header{
+	border-bottom: 5px solid #599a68 ;/*size style color*/
+	margin-bottom: 60px;
+}
+
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bhanu_Drishyam</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_settings1">Settings1</string>
+    <string name="action_settings2">Settings2</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="register_title">Register</string>
+    <string name="login_title">Login</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+
+    <!-- Parse appID clientID-->
+    <string name="appID">FkOeXH4Xy100WaDtnD82CzLv9teOpML8xX8EVSo9</string>
+    <string name="clientID">uKRIaZ6oh9n1quP4nsUxwZnvaW45tIyPKCgogtBL</string>
+
+
+    <string name="pwd">Password</string>
+    <string name="btnRegister">Register</string>
+    <!-- openDrawerContentDescRes-->
+    <string-array name="Warriors">
+         <item>"Arjuna"</item>
+        <item>"Partha"</item>
+        <item>"Dhanajya"</item>
+        <item>"Vijaya"</item>
+        <item>"Phalguni"</item>
+        <item>"Gudakesh"</item>
+        <item>"Savyasachi"</item>
+        <item>"kiriti"</item>
+        <item>"Jishnu"</item>
+        <item>"Shwetavahana"</item>
+        <item>"Bhibhatsu"</item>
+        <item>"Kapidhwaja"</item>
+        <item>"Parantapa"</item>
+        <item>"Gandhivdhanva"</item>
+        <item>"Krishna"</item>
+    </string-array>
+
+    <string-array name="Week">
+        <item>"Monday"</item>
+        <item>"Tuesday"</item>
+        <item>"Wednesday"</item>
+        <item>"Thursday"</item>
+        <item>"Friday"</item>
+        <item>"Saturday"</item>
+        <item>"Sunday"</item>
+
+    </string-array>
+
+    <string-array name="Social">
+        <item>"GITHUB"</item>
+        <item>"Gmail"</item>
+        <item>"LINE"</item>
+        <item>"Facebook"</item>
+       <item>"YouTube"</item>
+        <item>"PHONE"</item>
+    </string-array>
+    <string name="title_activity_destructive">Destructive</string>
+
+
+    <string name="from_html_text">
+            <![CDATA[
+            <h1>Hello World</h1>
+            Here is an <img src="octopus"><i>octopus</i>.<br>
+            And here is a
+            <a href="http://d.android.com/reference/android/text/Html.html">
+            link</a>.
+            ]]>
+</string>
+    <string name="title_activity_arduino_control">arduinoControl</string>
+
+
+        <string name="text_bluetooth_off">Bluetooth is Off</string>
+        <string name="text_bluetooth_on">Bluetooth is On</string>
+
+        <string name="text_enable">Enable</string>
+        <string name="text_disable">Disable</string>
+
+        <string name="text_view_paired">Paired Devices</string>
+        <string name="text_scan_devices">Scan Devices</string>
+        <string name="text_stop_scan">Scan Devices</string>
+
+        <string name="text_list_paired_devices">Paired Devices</string>
+        <string name="text_list_devices">List of Devices</string>
+
+        <string name="text_pair">Pair</string>
+
+
+</resources>

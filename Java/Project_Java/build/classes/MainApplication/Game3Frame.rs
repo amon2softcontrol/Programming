@@ -1,0 +1,5 @@
+MainApplication.Game3Frame
+MainApplication.scoreboard
+MainApplication.asteroid
+MainApplication.Spaceship
+MainApplication.laserbeam

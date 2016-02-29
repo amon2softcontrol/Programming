@@ -1,0 +1,27 @@
+.container
+{
+	max-width: 900px;
+}
+
+.yokform{
+width: 200px;
+margin: 20px;
+}
+
+.navbar-default{
+	resize: horizontal;
+	overflow: auto;
+	margin: 0 auto;
+	margin-bottom: 18px;
+	padding: 5px 0 0 0;
+	width: 45%;
+	max-width: 96%;
+}
+#amon{
+	margin-top: 0;
+}
+
+#msg 
+{
+	color: #000;
+}

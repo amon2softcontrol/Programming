@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:paddingTop="12dp"
+            android:text="SMS drishyam"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/smsheader"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/loginEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="32dp"
+            android:hint="Enter your Email ID"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/loginPassword"
+            android:layout_width="fill_parent"
+            android:paddingTop="52dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:inputType="numberPassword" />
+
+        <TextView
+            android:id="@+id/login_error"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:textColor="#e30000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:layout_gravity="center"
+            android:background="#ff6347"
+            android:text="Save Preferences"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnLinkToRegisterScreen"
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:text="Info"
+            android:textColor="#228b22"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="331dp"
+            android:layout_height="186dp"
+            android:paddingTop="38dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="If you are seeing this page then you have successfully registered for the service. This page allows you to edit your password.
+            Click info for detail"
+            android:id="@+id/textView6"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</ScrollView>

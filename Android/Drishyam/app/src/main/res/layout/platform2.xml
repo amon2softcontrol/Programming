@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/platform2"
+    android:background="@drawable/detective"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <com.alexzh.circleimageview.CircleImageView
+    android:id="@+id/Remote1"
+    android:layout_width="65dp"
+    android:layout_height="65dp"
+    android:clickable="true"
+    android:src="@drawable/computer1"
+    app:view_backgroundColor="@color/transparent"
+    app:view_shadowRadius="5dp"
+    app:view_shadowDx="2dp"
+    app:view_shadowDy="0dp"
+    app:view_shadowColor="@color/user_icon_default_gray"
+    app:view_borderWidth="4dp"
+    app:view_selectedColor="@color/Blue_700"
+    app:view_borderColor="@android:color/darker_gray"
+    android:layout_gravity="left|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/platform"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+
+        android:orientation="horizontal" >
+
+    <com.github.sasakicks.draggableflipview.DraggableFlipView
+        android:layout_margin="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        app:frontView="@layout/platform1_info"
+        app:backView="@layout/platform1"
+        android:background="#80bebebe"
+        android:padding="6dp"
+
+        />
+        <com.github.sasakicks.draggableflipview.DraggableFlipView
+            android:layout_margin="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            app:frontView="@layout/platform1_info"
+            app:backView="@layout/platform2"
+            android:background="#80bebebe"
+            android:padding="6dp"
+
+            />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <com.github.sasakicks.draggableflipview.DraggableFlipView
+            android:layout_margin="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            app:frontView="@layout/platform1_info"
+            app:backView="@layout/platform3"
+            android:background="#80bebebe"
+            android:padding="6dp"
+            />
+        <com.github.sasakicks.draggableflipview.DraggableFlipView
+            android:layout_margin="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            app:frontView="@layout/platform1_info"
+            app:backView="@layout/platform4"
+            android:background="#80bebebe"
+            android:padding="6dp"
+            android:id="@+id/aaagg" />
+    </LinearLayout>
+</LinearLayout>

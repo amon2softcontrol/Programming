@@ -1,0 +1,28 @@
+h1.pulse{
+	color: white;	
+	margin-top:70%;
+	font-weight: bold;
+	text-align: center;
+    text-transform: uppercase;
+   text-shadow: 0 0 12px #FF0000;
+}
+
+h1.pulse:hover {
+
+	color: yellow;
+    /*text-shadow: 0 0 12px #000000;*/
+}
+
+#animation1{
+    background-color: #fe5652;
+
+    visibility: hidden;
+}
+
+h2.hatch{
+	
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 0 0 24px darkgreen;  
+}
